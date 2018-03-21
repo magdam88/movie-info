@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MovieSearch</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,500,700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script defer src="fontawesome/fontawesome-all.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/movie.css" />
+</head>
+
+<body>
+  <div class="wrapper container-fluid">
+    <nav class="navbar navbar-dark">
+      <a class="navbar-brand" href="index.html">movieinfo</a>
+    </nav>
+    <div class="container movie-selected">
+      <div class="row main">
+        <div class="col-md-4 poster"></div>
+        <div class="col-md-8 description">
+          <div class="movie-info"></div>
+          <div class="overview"></div>
+          <div class="row">
+            <div class="col-md-6 movie-details"></div>
+            <div class="col-md-6 gallery"></div>
+          </div>
+          </div>
+
+          </div>
+
+      <div class="row videos">
+        <h2 class="title">Videos</h2>
+        <div class="col-md-12 trailers"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/main.js"></script>
+  <script>
+    getMovie();
+  </script>
+</body>
+
+</html>
